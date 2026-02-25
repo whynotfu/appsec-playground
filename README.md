@@ -30,6 +30,20 @@
 | 7 | [CTF Writeups](projects/07-ctf-writeups/) | Решения CTF задач с объяснениями | Ongoing |
 | 8 | [Security Code Review](projects/08-security-code-review/) | Примеры security code review с найденными багами | Planned |
 
+## Daily Schedule
+
+Interactive calendar with university schedule (group 241-327, Moscow Polytechnic) combined with a personal security study plan.
+
+Open [`schedule/index.html`](schedule/) in your browser.
+
+Features:
+- University classes (only in-person, lectures excluded) with 1.5h commute time
+- Security study tasks filling free time slots
+- Checkboxes to track daily progress (saved in localStorage)
+- Weekly security themes (16-week rotation)
+- Day streak counter
+- Schedule adapts to semester period changes (Apr 6 transition)
+
 ## Certifications Roadmap
 
 - [ ] CompTIA Security+ (цель: 2026)

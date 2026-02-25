@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Security Roadmap | 241-327</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app">
+        <!-- Stats row -->
+        <div class="stats-bar" id="statsBar"></div>
+
+        <!-- Week theme -->
+        <div class="week-theme-strip" id="weekTheme"></div>
+
+        <!-- Controls -->
+        <div class="controls">
+            <button class="btn btn-nav" id="prevBtn">&larr;</button>
+            <h2 id="currentTitle"></h2>
+            <button class="btn btn-nav" id="nextBtn">&rarr;</button>
+            <div class="view-toggle">
+                <button class="btn btn-view active" data-view="calendar">Month</button>
+                <button class="btn btn-view" data-view="week">Week</button>
+                <button class="btn btn-view" data-view="today">Today</button>
+            </div>
+        </div>
+
+        <!-- Views -->
+        <div id="calendarView" class="calendar-grid"></div>
+        <div id="weekView" class="week-view hidden"></div>
+        <div id="todayView" class="today-view hidden"></div>
+
+        <!-- Modal -->
+        <div class="modal-overlay hidden" id="modal">
+            <div class="modal">
+                <div class="modal-header">
+                    <h3 id="modalDate"></h3>
+                    <button class="modal-close" id="modalClose">&times;</button>
+                </div>
+                <div class="modal-body" id="modalBody"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="schedule-data.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
