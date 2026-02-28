@@ -231,8 +231,8 @@ Principal Security Architect / CISO
 ### Бесплатные
 - [PortSwigger Web Security Academy](https://portswigger.net/web-security) — #1 ресурс
 - [OWASP](https://owasp.org) — стандарты, гайды, инструменты
-- [Hack The Box](https://hackthebox.com) — практика
-- [TryHackMe](https://tryhackme.com) — более guided, хорошо для начала
+- [Hack The Box](https://hackthebox.com) — практика [тут](https://profile.hackthebox.com/profile/019ca4cd-f85c-73e5-9926-56be2d60abdf)
+- [TryHackMe](https://tryhackme.com) — более guided, хорошо для начала [тут](https://tryhackme.com/p/whynotfu)
 - [PentesterLab](https://pentesterlab.com) — лабы по web security
 - [CyberChef](https://gchq.github.io/CyberChef/) — швейцарский нож для encoding/decoding
 
